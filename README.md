@@ -270,19 +270,19 @@ git status
 
 ```bash
 # Your answer
-
+git add character2/Jim.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Change dialogue 5.3"
 ```
 
 
 ```bash
 # Your answer
-
+git push
 ```
 
 ### 5.4 Back to the future part II
