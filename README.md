@@ -177,25 +177,25 @@ sh replace_in_file character1/James.txt "Bond... James Bond"
 
 ```bash
 # Your answer
-
+git add README.md
 ```
 
 
 ```bash
 # Your answer
-
+git add character1/James.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Changed James dialogue"
 ```
 
 
 ```bash
 # Your answer
-
+git push
 ```
 
 ### 5.2 Fight Club
