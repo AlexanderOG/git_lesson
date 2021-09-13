@@ -169,7 +169,7 @@ python display_dialog.py --char1 character1/James.txt --char2 character2/Sylvia.
 
 ```bash
 # Your answer
-sh replace_in_file character1/James.txt "[???]"
+sh replace_in_file character1/James.txt "Bond... James Bond"
 ```
 
 **<font color='#ffb799'>And now update changes on remote server</font>**
