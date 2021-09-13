@@ -256,7 +256,7 @@ python display_dialog.py --char1 character1/appollo13.txt --char2 character2/Jim
 
 ```bash
 # Your answer
-sh replace_in_file character2/Jim.txt "[???]"
+sh replace_in_file character2/Jim.txt "Houston! We have a problem!"
 ```
 
 **<font color='#ffb799'>And now update changes on remote server</font>**
@@ -264,7 +264,7 @@ sh replace_in_file character2/Jim.txt "[???]"
 
 ```bash
 # Your answer
-
+git status
 ```
 
 
