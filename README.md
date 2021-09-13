@@ -220,25 +220,26 @@ sh replace_in_file character2/Tyler.txt "Don't follow the first rule"
 
 ```bash
 # Your answer
-
+git status
 ```
 
 
 ```bash
 # Your answer
-
+git add README.md
+git add character2/Tyler.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Change dialogue 5.2"
 ```
 
 
 ```bash
 # Your answer
-
+git push
 ```
 
 ### 5.3 Apollo 13
