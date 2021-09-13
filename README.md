@@ -8,9 +8,9 @@ The staging policy is composed of 4 steps that you can see in the following draw
 Of course each command could be reversed, but some of them are harder to reverse than other. We will cover them in this tutorial.
 
 # Let's go for some git
-#### You will work on a project that is using git. 
-#### In this project you will have some ***character1.txt*** files and some ***character2.txt*** files. 
-#### They are played by a python script that will display the questions and the answers. 
+#### You will work on a project that is using git.
+#### In this project you will have some ***character1.txt*** files and some ***character2.txt*** files.
+#### They are played by a python script that will display the questions and the answers.
 #### Your mission will be to edit thoses questions and answers files to correct mistakes and forgotten stuff in order to be the same as they were in the well-known movies they are from.
 <br/>
 <br/>
@@ -38,7 +38,7 @@ Of course each command could be reversed, but some of them are harder to reverse
 
 ```bash
 # Your answer
-
+git clone https://github.com/AlexanderOG/git_lesson.git
 ```
 
 If everything is good you should see a directory named **git_lesson** in the following output:
@@ -49,7 +49,7 @@ If everything is good you should see a directory named **git_lesson** in the fol
 ls
 ```
 
-Is it good? Perfect, now we will just go inside this dowloaded directory for the following exercices. 
+Is it good? Perfect, now we will just go inside this dowloaded directory for the following exercices.
 
 **<font color='#ffb799'>Please replace the path with the name of your git repository:</font>**
 
@@ -79,7 +79,7 @@ Your job will be to replace the last line of the dialog, don't worry I wrote a s
 
 ```bash
 # Your answer
-sh replace_in_file character1/Ygritte.txt "[???]"
+sh replace_in_file character1/Ygritte.txt "Nice."
 ```
 
 Perfect now that you have done a modification on a file, you can commit it on git.
@@ -433,7 +433,7 @@ Well after reviewing the scene (that you can find just here: https://www.youtube
 You just reverted a local commit and pushed, well done!
 
 > ***Pro-tips:***
-> - The `git reset HEAD~1` is pretty simple if you want to go back in time for 5 commits you just have to replace the 1 by a 5. 
+> - The `git reset HEAD~1` is pretty simple if you want to go back in time for 5 commits you just have to replace the 1 by a 5.
 >
 > - Another way of doing this can be to find the commit id you want to go back and use: `git reset --soft commit_id`
 
@@ -514,13 +514,13 @@ Perfect now let's imagine that we want to go back to the status we had before th
 
 ```
 
-# Exercise 8: Creating a branch 
+# Exercise 8: Creating a branch
 
 ***<font color='#ffb799'>Questions</font>***
 - **<font color='#ffb799'>Create a new branch and go on it.</font>**
 - **<font color='#ffb799'>Do the Forrest Gump correction (like in the begining of the previous exercise) and push it on the new branch.</font>**
 
-# Exercise 8: Changing Branch 
+# Exercise 8: Changing Branch
 #### We will work with our last movie **Titanic** let's see the dialog:
 ![TitanicUrl](https://media.giphy.com/media/cMpmHKo9tGYfe/giphy.gif "Titanic")
 
@@ -529,7 +529,7 @@ Perfect now let's imagine that we want to go back to the status we had before th
 - **<font color='#ffb799'>edit answer/Jack.txt file with the replace_in_file script</font>**
 - **<font color='#ffb799'>Push changes to the master branch</font>**
 
-# Exercise 9: Merging two branches 
+# Exercise 9: Merging two branches
 #### Now we will merge the branch you created into the master branch.
 ***<font color='#ffb799'>Questions</font>***
 - **<font color='#ffb799'>Merge the branch you created in Exercise 7 in the master branch</font>**
@@ -540,7 +540,7 @@ Perfect now let's imagine that we want to go back to the status we had before th
 > - Merging branches is not so trivial it could leads to conflicts. Normally you did not have any in the previous exercise and we will conver how to handle them in the next git learning session.
 >
 > - Working with branches is the best way to use git, and we don't recommend to push stuff on the master branch, even if it's just your project. The master branch should always remain a pure and free-of-bugs zone.
-> 
+>
 
 
 # If you came this far, you have finished the first part!! well done!
@@ -549,4 +549,3 @@ Perfect now let's imagine that we want to go back to the status we had before th
 - **Do exercices here: https://learngitbranching.js.org/**
 - **Find two friends and:**
 Try to put one by one the names of all the attendees of the session, all at the same time in a file. This will obviously generate conflicts that you'll have to manage.
-
