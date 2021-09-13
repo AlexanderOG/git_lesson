@@ -212,7 +212,7 @@ python display_dialog.py --char1 character1/voice_fc.txt --char2 character2/Tyle
 
 ```bash
 # Your answer
-sh replace_in_file character2/Tyler.txt "[???]"
+sh replace_in_file character2/Tyler.txt "Don't follow the first rule"
 ```
 
 **<font color='#ffb799'>And now update changes on remote server</font>**
