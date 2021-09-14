@@ -554,6 +554,15 @@ git push
 <br/>
 <br/>
 
+```bash
+# Your answer
+git merge Forrest-dialogue
+git status
+git add README.md
+git commit -m "Fixed merge conflict"
+git push
+```
+
 ***Pro-tips***
 > - Merging branches is not so trivial it could leads to conflicts. Normally you did not have any in the previous exercise and we will conver how to handle them in the next git learning session.
 >
