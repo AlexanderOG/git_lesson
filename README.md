@@ -516,13 +516,21 @@ git commit -m "Reverting commit in remote server"
 git push
 ```
 
-# Exercise 8: Creating a branch
+# Exercise 8.1: Creating a branch
 
 ***<font color='#ffb799'>Questions</font>***
 - **<font color='#ffb799'>Create a new branch and go on it.</font>**
 - **<font color='#ffb799'>Do the Forrest Gump correction (like in the begining of the previous exercise) and push it on the new branch.</font>**
 
-# Exercise 8: Changing Branch
+```bash
+# Your answer
+git checkout -b "Forrest-dialogue"
+git add character1/Forrest.txt
+git commit -m "Changing Forrest dialogue"
+git push --set-upstream origin Forrest-dialogue
+```
+
+# Exercise 8.2: Changing Branch
 #### We will work with our last movie **Titanic** let's see the dialog:
 ![TitanicUrl](https://media.giphy.com/media/cMpmHKo9tGYfe/giphy.gif "Titanic")
 
