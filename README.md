@@ -346,7 +346,7 @@ For this time I'll give you the answer, Luke said *"NOOOOOOOOOOOOOO NOOOOOOOO"* 
 
 ```bash
 # Your answer
-sh replace_in_file character2/Luke.txt "[???]"
+sh replace_in_file character2/Luke.txt "NOOOOOOOOOOOOOO NOOOOOOOO"
 ```
 
 **<font color='#ffb799'>Now commit your changes (but don't push)</font>**
@@ -354,19 +354,19 @@ sh replace_in_file character2/Luke.txt "[???]"
 
 ```bash
 # Your answer
-
+git status
 ```
 
 
 ```bash
 # Your answer
-
+git add character2/Luke.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "First Luke commit"
 ```
 
 Ok, in fact I was wrong Luke didn't said it twice, it think it was just one simple *"NOOOOO"*.
@@ -381,19 +381,19 @@ Ok, in fact I was wrong Luke didn't said it twice, it think it was just one simp
 
 ```bash
 # Your answer
-
+git status
 ```
 
 
 ```bash
 # Your answer
-
+git add character2/Luke.txt
 ```
 
 
 ```bash
 # Your anwser
-
+git commit -m "Second Luke commit"
 ```
 
 Well after reviewing the scene (that you can find just here: https://www.youtube.com/watch?v=bv20ZoBcdO8 we were right in the first place.
@@ -403,19 +403,19 @@ Well after reviewing the scene (that you can find just here: https://www.youtube
 
 ```bash
 # Your answer
-
+git log
 ```
 
 
 ```bash
 # Your answer
-
+git revert HEAD
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Reverted second Luke commit"
 ```
 
 **<font color='#ffb799'>Push your changes to the remote server.</font>**
@@ -423,13 +423,13 @@ Well after reviewing the scene (that you can find just here: https://www.youtube
 
 ```bash
 # Your answer
-
+git push
 ```
 
 
 ```bash
 # Your answer
-
+----
 ```
 
 You just reverted a local commit and pushed, well done!
