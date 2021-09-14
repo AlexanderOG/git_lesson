@@ -461,31 +461,31 @@ python display_dialog.py --char1 character1/Forrest.txt --char2 character2/Lady.
 
 ```bash
 # Your answer
-sh replace_in_file character1/Forrest.txt "[???]"
+sh replace_in_file character1/Forrest.txt "that life is like a box of chocolate,"
 ```
 
 
 ```bash
 # Your answer
-
+git status
 ```
 
 
 ```bash
 # Your answer
-
+git add character1/Forrest.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Changing Forrest dialogue"
 ```
 
 
 ```bash
 # Your answer
-
+git push
 ```
 
 Perfect now let's imagine that we want to go back to the status we had before this exercise.
@@ -495,25 +495,25 @@ Perfect now let's imagine that we want to go back to the status we had before th
 
 ```bash
 # Your answer
-
+git log
 ```
 
 
 ```bash
 # Your answer
-
+git revert HEAD
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Reverting commit in remote server"
 ```
 
 
 ```bash
 # Your answer
-
+git push
 ```
 
 # Exercise 8: Creating a branch
