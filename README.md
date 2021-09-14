@@ -516,13 +516,13 @@ git commit -m "Reverting commit in remote server"
 git push
 ```
 
-# Exercise 8: Creating a branch
+# Exercise 8.1: Creating a branch
 
 ***<font color='#ffb799'>Questions</font>***
 - **<font color='#ffb799'>Create a new branch and go on it.</font>**
 - **<font color='#ffb799'>Do the Forrest Gump correction (like in the begining of the previous exercise) and push it on the new branch.</font>**
 
-# Exercise 8: Changing Branch
+# Exercise 8.2: Changing Branch
 #### We will work with our last movie **Titanic** let's see the dialog:
 ![TitanicUrl](https://media.giphy.com/media/cMpmHKo9tGYfe/giphy.gif "Titanic")
 
@@ -530,6 +530,14 @@ git push
 - **<font color='#ffb799'>Go back to master branch</font>**
 - **<font color='#ffb799'>edit answer/Jack.txt file with the replace_in_file script</font>**
 - **<font color='#ffb799'>Push changes to the master branch</font>**
+
+```bash
+# Your answer
+git checkout master
+git add character2/Jack.txt
+git commit -m "Changed Jack dialogue"
+git push
+```
 
 # Exercise 9: Merging two branches
 #### Now we will merge the branch you created into the master branch.
