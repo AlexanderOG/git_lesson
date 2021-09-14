@@ -522,6 +522,14 @@ git push
 - **<font color='#ffb799'>Create a new branch and go on it.</font>**
 - **<font color='#ffb799'>Do the Forrest Gump correction (like in the begining of the previous exercise) and push it on the new branch.</font>**
 
+```bash
+# Your answer
+git checkout -b "Forrest-dialogue"
+git add character1/Forrest.txt
+git commit -m "Changing Forrest dialogue"
+git push --set-upstream origin Forrest-dialogue
+```
+
 # Exercise 8.2: Changing Branch
 #### We will work with our last movie **Titanic** let's see the dialog:
 ![TitanicUrl](https://media.giphy.com/media/cMpmHKo9tGYfe/giphy.gif "Titanic")
