@@ -307,25 +307,25 @@ sh replace_in_file character2/Emmet.txt "Roads? We don't need a road!"
 
 ```bash
 # Your answer
-
+git status
 ```
 
 
 ```bash
 # Your answer
-
+git add character2/Emmet.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "Change dialogue 5.4"
 ```
 
 
 ```bash
 # Your answer
-
+git push
 ```
 
 # Exercise 6: Revert a local commit
